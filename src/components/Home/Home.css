@@ -1,0 +1,51 @@
+img.theo{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;    
+}
+.name{
+    color: var(--clr-grey-3);  
+    /* font-family: Segoe UI;   */
+    font-size: xxx-large;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.divider {
+    width: 400px;
+    margin: auto;
+    height: 3px;
+    background: var(--clr-primary-5);
+}
+.jobTitle {
+    /* font-family: Segoe UI;   */
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 50px;
+    color: var(--clr-grey-3);
+}
+
+.niro{
+    color: black;    
+    font-size: x-large;
+    border: black 2px;
+}
+
+.contact {
+    height: 400px;
+    width: 500px;
+    margin-left: 50px;
+}
+
+.contact aboutme{
+    text-align: justify;
+    font-family: -apple-system !important;
+}
+
+.contact svg{
+    vertical-align: middle;
+}

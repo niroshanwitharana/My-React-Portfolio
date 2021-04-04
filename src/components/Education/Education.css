@@ -1,0 +1,68 @@
+.script-bf-box {
+    width: 300px;
+    height: 400px;
+    background: #324d67;
+    margin: 15px;
+    will-change: transform;
+    display: flex;
+    padding: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+  }
+  
+  .script-bf-box:hover {
+    background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
+    color: #324d67;
+  }
+  .eduQulification{
+    height: 100%;
+  }
+
+  .education{
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 40px;
+      inline-size: fit-content;      
+  }
+  .eduLable{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    inline-size: fit-content; 
+    font-size: 1.75rem;
+    height: auto;
+    color: white;    
+  }
+  .eduLable > label{
+      display: inline-flex;
+      inline-size: fit-content;
+      background: #324d67;
+      border-radius: 5px;
+      padding: 4px 8px;
+      box-shadow: 5px 5px 5px gray;
+  }
+  .eduLable > label:hover{
+      background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
+      color: #324d67;
+  }
+  .exp{
+      margin-left: 195px;
+      margin-right: 185px;
+  }
+  .center{
+    font-size: 1.5rem;
+    color: hotpink;    
+  }
+  .description{
+    font-size: 1.25rem;
+  }
+  .eduExpName{
+    color: White;
+    font-size: 1.75rem;
+    text-align: center !important;
+    border-bottom: 2px solid white;
+  }

@@ -1,0 +1,74 @@
+.css-1qzevvg {
+    /* display: none !important; */
+    left: 20%;
+}
+
+.MuiButton-contained {    
+    padding: 10px   
+}
+
+.relLink{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.Projects{
+    height: 100%;
+}
+
+.proLable{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    inline-size: fit-content; 
+    font-size: 1.75rem;
+    height: auto;
+    color: white;    
+  }
+  .proLable > label{
+      display: inline-flex;
+      inline-size: fit-content;
+      background: #324d67;
+      border-radius: 5px;
+      padding: 4px 8px;
+      box-shadow: 5px 5px 5px gray;
+  }
+  .proLable > label:hover{
+      background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
+      color: #324d67;
+  }
+
+.Description{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.deployButton{
+    width: 50% !important;
+}
+
+.carouselItems{
+    height:350px;
+}
+
+.content{
+    margin-left: auto !important;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 90%;
+    background: #324d67;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.content:hover {
+    background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
+    color: #324d67;
+  }

@@ -1,0 +1,103 @@
+.downloadDocs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;          
+  }
+
+.docContainer{
+  height: 100%;
+}
+
+.docLable{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  inline-size: fit-content; 
+  font-size: 1.75rem;
+  height: auto;
+  color: white;    
+}
+.docLable > label{
+    display: inline-flex;
+    inline-size: fit-content;
+    background: #324d67;
+    border-radius: 5px;
+    padding: 4px 8px;
+    box-shadow: 5px 5px 5px gray;
+}
+.docLable > label:hover{
+    background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
+    color: #324d67;
+}
+  
+  .c {
+    position: absolute;
+    max-width: 500px;
+    max-height: 500px;
+    width: 50ch;
+    height: 50ch;
+    will-change: transform, opacity;
+  }
+  
+  .front,
+  .back {
+    background-size: cover;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+    padding: 10px;  
+  }
+  
+  .back {
+    background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
+    color: #324d67;
+  }
+  
+  .front {
+    background: #324d67;
+  }
+  .flipBack{
+    background: brown;
+  }
+  
+  .clickFlipBack{
+    position: absolute;
+    bottom: 10px;
+    width: 50%;
+    margin-left: 135px;
+  }
+
+  .clickFlip{
+    position: absolute;
+    top: 10px;
+    width: 50%;
+    margin-left: 135px;
+  }
+
+  .cv {
+    display: grid;
+    margin-top: 30px;
+}
+
+.cover {
+  display: grid;
+}
+
+.currrntInfo {
+  margin-top: 180px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  font-size: 1.25rem;
+  text-align: justify;
+}
+
+.documents.aboutDoc:hover{
+  background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
+}
+
+.downlDoc>div>button {
+  margin-bottom: 20px;
+}
