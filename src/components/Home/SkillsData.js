@@ -12,7 +12,7 @@ const data = [
     height: 75,
   },
   {
-    name: "ES5/ES6/ES6+",
+    name: "ES6/ES6+",
     description: "#e0c3fc → #8ec5fc",
     css: "linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)",
     height: 75,
@@ -141,7 +141,7 @@ const data = [
       height: 75,
     },
     {
-      name: "Kanban Board",
+      name: "Kanban",
       description: "#d299c2 → #fef9d7",
       css: "linear-gradient(135deg, #d299c2 0%, #fef9d7 100%)",
       height: 75,

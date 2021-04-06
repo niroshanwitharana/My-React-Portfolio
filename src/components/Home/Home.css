@@ -49,3 +49,19 @@ img.theo{
 .contact svg{
     vertical-align: middle;
 }
+
+@media only screen and (max-width: 600px) { 
+    
+   .contactIcon > lable{
+      align-items: center;
+    }
+    .name{
+        font-size: xx-large;
+    }
+    .divider {
+        width: 275px;
+    }
+    .jobTitle {
+    font-size: x-large;
+    }
+  }

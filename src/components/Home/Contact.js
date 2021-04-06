@@ -38,7 +38,7 @@ export default class ContactInfo extends React.PureComponent {
         style={{
           overflow: 'hidden',
           cursor: 'pointer',
-          margin: 0,
+          marginTop: "20px",
           padding: 0,
         }}
         onClick={() => this.componentDidMount()}>
@@ -46,7 +46,7 @@ export default class ContactInfo extends React.PureComponent {
           items={this.state.items}
           //initial={null}
           from={{ overflow: 'hidden', height: 0, opacity: 0, color: '#49a6e9' }}
-          enter={{ height: 50, opacity: 1, color:'#49a6e9' }}
+          enter={{ height: 30, opacity: 1, color:'#49a6e9' }}
           leave={{ height: 0, opacity: 0, color: '#324d67' }}
           update={{ color:'#bb2525' }}
           trail={200}>
