@@ -59,6 +59,12 @@ body,
 
 /* small devices */
 @media only screen and (max-width: 600px) {
+  .aboutMe{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px;
+  } 
   .theo{
   display: block;
   padding-bottom: 40px;
@@ -74,9 +80,9 @@ body,
     width: 100%;
   }  
   .card{
-    width: 40ch;
-    height: 40ch;
-  } 
+    width: 30ch;
+    height: 30ch;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
