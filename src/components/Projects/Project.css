@@ -1,5 +1,5 @@
 .css-1qzevvg {
-    /* display: none !important; */
+    display: none !important;
     left: 20%;
 }
 
@@ -72,3 +72,39 @@
     background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
     color: #324d67;
   }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .carouselDiv{
+      width: 100% !important;
+  }
+  .carouselItems {
+    height: 200px;
+  }
+  .css-doq0dk {
+    position: relative;
+    width: 50%;
+    height: 90%;
+    right: 38%;
+}
+.carouselDiv img{
+    height: 260px;
+    width: 260px;
+    padding-right: 0px !important;
+}
+.proLable > label {
+    margin: auto;
+    font-size: 1.8rem;
+}
+.content{
+    margin-top: 50px;
+    font-size: 1.2rem;
+    width: 100%;
+}
+.MuiButton-label {
+    font-size: 0.8rem;
+}
+.deployButton {
+    width: 100% !important;
+}
+}

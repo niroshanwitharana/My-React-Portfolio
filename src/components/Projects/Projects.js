@@ -268,70 +268,70 @@ export default class Projects extends Component {
                 </button>
               </div>
             </div> */}
-          {/* </div> */}
-        <div className="content">
-          <div className="relLink">
-            <label>{this.slides[this.state.goToSlide].name}</label>
           </div>
-          <div className="Description">
-            {this.slides[this.state.goToSlide].Decription}
+          <div className="content">
+            <div className="relLink">
+              <label>{this.slides[this.state.goToSlide].name}</label>
+            </div>
+            <div className="Description">
+              {this.slides[this.state.goToSlide].Decription}
+            </div>
+            <div className="Description">
+              Tech Stack : {this.slides[this.state.goToSlide].tech}
+            </div>
           </div>
-          <div className="Description">
-            Tech Stack : {this.slides[this.state.goToSlide].tech}
-          </div>
-        </div>
-        {this.slides[this.state.goToSlide].repo ? (
-          <div className="relLink">
-            <Button
-              className="deployButton"
-              variant="contained"
-              color="default"
-              href={this.slides[this.state.goToSlide].repo}
-              target="#blank"
-              >
-              Link to GitHub Repo
-            </Button>
-          </div>
-        ) : (
-          <>
+          {this.slides[this.state.goToSlide].repo ? (
             <div className="relLink">
               <Button
                 className="deployButton"
                 variant="contained"
                 color="default"
-                href={this.slides[this.state.goToSlide].front}
+                href={this.slides[this.state.goToSlide].repo}
                 target="#blank"
-                >
-                Link to GitHub FrontEnd Repo
+              >
+                Link to GitHub Repo
               </Button>
             </div>
+          ) : (
+            <>
+              <div className="relLink">
+                <Button
+                  className="deployButton"
+                  variant="contained"
+                  color="default"
+                  href={this.slides[this.state.goToSlide].front}
+                  target="#blank"
+                >
+                  Link to GitHub FrontEnd Repo
+                </Button>
+              </div>
+              <div className="relLink">
+                <Button
+                  className="deployButton"
+                  variant="contained"
+                  color="default"
+                  href={this.slides[this.state.goToSlide].back}
+                  target="#blank"
+                >
+                  Link to GitHub BackEnd Repo
+                </Button>
+              </div>
+            </>
+          )}
+          {this.slides[this.state.goToSlide].deployed ? (
             <div className="relLink">
               <Button
                 className="deployButton"
                 variant="contained"
                 color="default"
-                href={this.slides[this.state.goToSlide].back}
+                href={this.slides[this.state.goToSlide].deployed}
                 target="#blank"
-                >
-                Link to GitHub BackEnd Repo
+              >
+                Link to Deployed App
               </Button>
             </div>
-          </>
-        )}
-        {this.slides[this.state.goToSlide].deployed ? (
-          <div className="relLink">
-            <Button
-              className="deployButton"
-              variant="contained"
-              color="default"
-              href={this.slides[this.state.goToSlide].deployed}
-              target="#blank"
-              >
-              Link to Deployed App
-            </Button>
-          </div>
-        ) : null}
-        </div>
+          ) : null}
+        {/* </div> */}
       </div>
     );
   }

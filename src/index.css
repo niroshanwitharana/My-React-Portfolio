@@ -439,11 +439,12 @@ Sidebar
   .sidebar-toggle {
     left: 1rem;
     top: 1rem;
-  }
+  }  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

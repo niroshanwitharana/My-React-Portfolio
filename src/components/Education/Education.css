@@ -66,3 +66,55 @@
     text-align: center !important;
     border-bottom: 2px solid white;
   }
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .eduLable{
+    font-size: 1.5rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+    max-width: 80% !important;
+  }
+  .eduQulification{
+    margin: auto;
+    max-width: min-content;
+  }
+  .education{
+    display: grid;
+  }
+  .script-bf-box{
+    margin: 20px 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .eduLable{
+    font-size: 1.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .education{
+    display: flex;
+    max-width: 600px;
+  }
+  .script-bf-box{
+    margin: 20px 10px;
+    height: auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 800px) {
+  .education{
+    display: flex;
+    max-width: 100%;
+  }
+  .script-bf-box{
+    margin: 15px;
+    height: 400px;
+  }
+}
