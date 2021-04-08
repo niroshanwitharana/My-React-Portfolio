@@ -4,7 +4,7 @@ import shuffle from 'lodash/shuffle'
 import './Skills.css'
 const Skills = ({data})=> {
   const [rows, set] = useState(data);  
-  useEffect(() => void setInterval(() => set(shuffle), 5000), [])
+  useEffect(() => void setInterval(() => set(shuffle), 9000), [])
 
   let height = 0
   const transitions = useTransition(
