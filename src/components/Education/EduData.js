@@ -19,7 +19,7 @@ const EduData = [
       "id": 3,
       "name": "Interests",
       "center":"My Hobbies",
-      "description": "I love Coding and Solving algorithems when I get free times, Walking outdoors with the kids, Going to the Gym and watching Rugby and Volleyball keep my work-life balance."
+      "description": "I love Coding and Solving algorithems when I get free time, Walking outdoors with the kids, Going to the Gym and watching Rugby and Volleyball keep my work-life balance."
     }    
   ];
 

@@ -155,7 +155,7 @@ export default class Projects extends Component {
         "get-grub-app.herokuapp.com_member(iPhone 5_SE).png",
       ],
       Decription:
-        "Get Grub is a recipe finding application. This was my second project which I worked on as part of a team. We used Trello board insted of canban board to plan our tasks, write psudocode and keep track of how we approached the tasks within the planned time frame using Grapph. We had a daily stand-up meetings and followed Agile process. User can login with google-ID, We used Passport and google Oauth to Authenticate and Authorize. Users can search recipies, add them in to My-list, delete them, add their own changes to recipies as comments and also update comments.",
+        "Get Grub is a recipe finding application. This was my second project which I worked on as part of a team. We used Trello board insted of canban board to plan our tasks, write psudocode and keep track of how we approached the tasks within the planned time frame using Grapph. We had daily stand-up meetings and followed Agile process. User can login with google-ID, We used Passport and google Oauth to Authenticate and Authorize. Users can search recipies, add them in to My-list, delete them, add their own changes to recipies as comments and also update comments.",
       tech:
         "HTML5/CSS3, Bootstrap, Materialize, JavaScript, API's, Node.js, Express.js, Handlebars, Sequelize, PostgreSQL, bcryptjs.",
       repo: "https://github.com/meeday/git_grub",
