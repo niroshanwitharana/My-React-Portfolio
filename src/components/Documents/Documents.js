@@ -21,7 +21,7 @@ function Documents() {
   };
 
   return (
-    <div className="docContainer">
+    <div className="Documents">
       <div className="docLable">
         <label htmlFor="edu">Download or View CV and Cover Letter</label>
       </div>

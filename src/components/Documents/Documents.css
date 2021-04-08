@@ -7,7 +7,7 @@
     padding: 10px;          
   }
 
-.docContainer{
+.Documents{
   height: 100%;
 }
 
@@ -104,11 +104,34 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .downloadDocs{
+    width: 100%;
+  }
 
-  .docLable > label {
+  .docLable>label {
   font-size: 1.5rem;
   }
-  .c{
-    margin: 5px;
+  .front, .back{
+    padding: 10px;
+    width: 290px;
+    height: 100%;
+    text-align: center;
   }
+  .Documents{
+    text-align: center;
+  }
+  .clickFlip {
+    
+}
+.clickFlip{
+  top: 20px;
+  margin-left: 0px;
+  left: 25%;
+} 
+.clickFlipBack {
+  bottom: 20px;
+  margin-left: 0px;
+  left: 25%;
+  width: auto;
+}
 }
