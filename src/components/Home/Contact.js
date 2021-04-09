@@ -23,13 +23,13 @@ export default class ContactInfo extends React.PureComponent {
     this.setState({ items: ['Front-End/Back-End Developer ??', 'FullStack Developer??'] })
     this.t1 = setTimeout(
       () => this.setState({ items: ['Please Email', 'To : nrosh_uoc@yahoo.com'] }),
-      4000
+      6000
     )
     this.t2 = setTimeout(
       () => this.setState({ items: [ 'Please Contact', 'Mobile : 07474020266'] }),
-      8000
+      12000
     )
-    this.t3 = setTimeout(() => this.setState({ items: ['Click here !'] }), 12000)
+    this.t3 = setTimeout(() => this.setState({ items: ['Mobile : 07474020266', 'Click here for more !'] }), 18000)
   }
 
   render() {

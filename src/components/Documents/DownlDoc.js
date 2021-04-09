@@ -18,28 +18,33 @@ export default function DownlDoc({ flip }) {
   return (
     <div className="downlDoc">
       <div className="cv">
+      <a href={cv} target="_blank" rel="noopener noreferrer">
       <Button
           variant="contained"
           color="default"
-          href={cv}
-          target="#blank"
+          // href={cv}
+          target="_blank"
           className={classes.button}
           startIcon={<VisibilityIcon />}
         >
           View-CV
         </Button>
+        </a>
+        <a href={cv} target="_blank" rel="noopener noreferrer" download>
         <Button
           variant="contained"
           color="default"
-          href={cv}
-          download="Niroshana-CV"
+          // href={cv}
+          // download="Niroshana-CV"
           className={classes.button}
           startIcon={<CloudDownloadIcon />}
         >
           Download-CV
         </Button>
+        </a>
       </div>
       <div className="cover">
+      <a href={cover} target="_blank" rel="noopener noreferrer">
       <Button
           variant="contained"
           color="default"
@@ -50,6 +55,8 @@ export default function DownlDoc({ flip }) {
         >
           View-Cover Letter
         </Button>
+        </a>
+        <a href={cover} target="_blank" rel="noopener noreferrer" download>
         <Button
           variant="contained"
           color="default"
@@ -60,6 +67,7 @@ export default function DownlDoc({ flip }) {
         >
           Download-Cover Letter
         </Button>
+        </a>
       </div>
       <div className="clickFlipBack">        
         <Button
