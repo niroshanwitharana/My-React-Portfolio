@@ -4,8 +4,6 @@ import FlipIcon from '@material-ui/icons/Flip';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
-import cv from "./assets/cv.pdf"
-import cover from "./assets/cover.pdf"
 
 const useStyles = makeStyles((theme) => ({
   button: {
@@ -18,56 +16,48 @@ export default function DownlDoc({ flip }) {
   return (
     <div className="downlDoc">
       <div className="cv">
-      <a href={cv} target="_blank" rel="noopener noreferrer">
       <Button
           variant="contained"
           color="default"
-          // href={cv}
-          target="_blank"
+          href="https://docs.google.com/document/d/1CKjM6FFkFlTQKa9JZj8KAkq138bR0KtwkxWpMxWszvc/preview"
+          target="#blank"
           className={classes.button}
           startIcon={<VisibilityIcon />}
         >
           View-CV
         </Button>
-        </a>
-        <a href={cv} target="_blank" rel="noopener noreferrer" download>
         <Button
           variant="contained"
           color="default"
-          // href={cv}
-          // download="Niroshana-CV"
+          href="https://docs.google.com/document/d/1CKjM6FFkFlTQKa9JZj8KAkq138bR0KtwkxWpMxWszvc/export?format=pdf"
+          download="Niroshana-CV"
           className={classes.button}
           startIcon={<CloudDownloadIcon />}
         >
           Download-CV
         </Button>
-        </a>
       </div>
       <div className="cover">
-      <a href={cover} target="_blank" rel="noopener noreferrer">
       <Button
           variant="contained"
           color="default"
-          href={cover}
+          href="https://docs.google.com/document/d/1LDuLEHjDGsxyrA9vST6EW6M2XzKmTnbff-oIg7FkeyY/preview"
           target="#blank"
           className={classes.button}
           startIcon={<VisibilityIcon />}
         >
           View-Cover Letter
         </Button>
-        </a>
-        <a href={cover} target="_blank" rel="noopener noreferrer" download>
         <Button
           variant="contained"
           color="default"
-          href={cover}
+          href="https://docs.google.com/document/d/1LDuLEHjDGsxyrA9vST6EW6M2XzKmTnbff-oIg7FkeyY/export?format=pdf"
           download="Niroshana-Cover-Letter"
           className={classes.button}
           startIcon={<CloudDownloadIcon />}
         >
           Download-Cover Letter
         </Button>
-        </a>
       </div>
       <div className="clickFlipBack">        
         <Button
