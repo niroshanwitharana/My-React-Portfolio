@@ -342,6 +342,7 @@ Sidebar
   cursor: pointer;
   color: var(--clr-red-dark);
   margin-top: 0.2rem;
+  margin-right: 15px;
 }
 .close-btn:hover {
   color: var(--clr-red-light);

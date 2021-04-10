@@ -28,10 +28,10 @@
     padding: 4px 8px;
     box-shadow: 5px 5px 5px gray;
 }
-.docLable > label:hover{
+/* .docLable > label:hover{
     background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
     color: #324d67;
-}
+} */
   
   .c {
     position: absolute;
@@ -51,8 +51,7 @@
   }
   
   .back {
-    background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
-    color: #324d67;
+    background: #324d67;
   }
   
   .front {

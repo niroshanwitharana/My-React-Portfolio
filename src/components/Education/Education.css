@@ -13,10 +13,10 @@
     box-shadow: 5px 5px 5px gray;
   }
   
-  .script-bf-box:hover {
+  /* .script-bf-box:hover {
     background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
     color: #324d67;
-  }
+  } */
   .eduQulification{
     height: 100%;
   }
@@ -45,10 +45,10 @@
       padding: 4px 8px;
       box-shadow: 5px 5px 5px gray;
   }
-  .eduLable > label:hover{
+  /* .eduLable > label:hover{
       background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
       color: #324d67;
-  }
+  } */
   .exp{
       margin-left: 195px;
       margin-right: 185px;

@@ -36,10 +36,10 @@
       padding: 4px 8px;
       box-shadow: 5px 5px 5px gray;
   }
-  .proLable > label:hover{
+  /* .proLable > label:hover{
       background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
       color: #324d67;
-  }
+  } */
 
 .Description{
     margin-left: auto !important;
@@ -68,10 +68,10 @@
     box-shadow: 5px 5px 5px gray;
 }
 
-.content:hover {
+/* .content:hover {
     background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
     color: #324d67;
-  }
+  } */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
